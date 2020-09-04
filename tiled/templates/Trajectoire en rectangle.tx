@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object name="Trajectoire en rectangle" type="mobPath" width="143.333" height="70.6667">
+  <properties>
+   <property name="linkid" value="mobaaab"/>
+  </properties>
+ </object>
+</template>

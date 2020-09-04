@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object name="deco" type="element" width="58.6667" height="20.3333">
+  <properties>
+   <property name="foreground" type="bool" value="false"/>
+  </properties>
+  <text fontfamily="MS Shell Dlg 2" pixelsize="9" wrap="1" color="#ffffff">test</text>
+ </object>
+</template>

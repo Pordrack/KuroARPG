@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object name="mapChangerBegin" type="element" width="16.1818" height="7.63636">
+  <properties>
+   <property name="destmap" value="level_house"/>
+   <property name="linkid" value="mapchangeaaaa"/>
+  </properties>
+ </object>
+</template>

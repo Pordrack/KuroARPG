@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <tileset firstgid="1" source="../mobs.tsx"/>
+ <object name="npc" type="element" gid="3" width="32" height="32">
+  <properties>
+   <property name="attack" value=""/>
+   <property name="destmap" value=""/>
+   <property name="disappear" type="bool" value="false"/>
+   <property name="linkid" value=""/>
+   <property name="message">Bienvenu jeune Eliatrope*, bienvenue sur Incarnam ! Depuis que tout le monde a deserté, il n y a plus personne pour te préparer aux dangers du Monde des Treizes ici. Mais pas d'inquiétude, tu auras à ta disposition d'autres pancartes comme moi pour te guider. Pour commencer pourquoi ne pas essayé de placer des portails afin de rejoindre l'ile à ta droite ? Pour placer ton premier portail, clique avec le clique gauche à l'endroit de ton choix&quot;..controls[5]..&quot;, puis maintient appuyé tout en orientant le portail vers la direction de ton choix. Puis fait la même chose avec le clique droit pour ton deuxieme portail. Traverser un de tes portails de téléportera alors à l'autre, en conservant ta vitesse.
+
+
+
+*Dans l'eventualité ou vous n'êtes pas un Eliatrope, merci d'ignorer cette pancarte et d'en chercher une correspondant à votre classe.</property>
+   <property name="npcname" value="Putain de pancarte"/>
+  </properties>
+ </object>
+</template>

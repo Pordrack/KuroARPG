@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <tileset firstgid="1" source="../dungeon.tsx"/>
+ <object name="moving" type="element" gid="2" width="16" height="16">
+  <properties>
+   <property name="linkid" value="aaaa"/>
+   <property name="loop" type="bool" value="true"/>
+   <property name="spd" type="int" value="100"/>
+   <property name="tangibility" type="bool" value="false"/>
+   <property name="x2" type="int" value="302"/>
+   <property name="y2" type="int" value="486"/>
+  </properties>
+ </object>
+</template>

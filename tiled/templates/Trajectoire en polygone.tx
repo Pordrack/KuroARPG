@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object name="Trajectoire en polygone" type="mobPath">
+  <properties>
+   <property name="linkid" value="mobaaaa"/>
+  </properties>
+  <polygon points="2,4.5 128,-80 200.5,36.5 43.5,74"/>
+ </object>
+</template>

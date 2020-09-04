@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="10">
+ <editorsettings>
+  <export target="../level_kalahroch.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" source="roguelikeDungeon.tsx"/>
+ <tileset firstgid="477" source="roguelikeBaseKenney.tsx"/>
+ <layer id="1" name="background" width="20" height="15">
+  <data encoding="csv">
+96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,
+96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,
+96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,
+96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,
+96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,
+96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,
+96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,
+96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,
+96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,
+96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,
+96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,
+96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,
+96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,
+96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,
+96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" template="templates/npc.tx" gid="380" x="160.5" y="80">
+   <properties>
+    <property name="attack" value="grapling"/>
+    <property name="message" value="Ce minerai étrange infuse d'un étrange energie, une vois en emerge &quot;Je suis l'esprit de Roi Citrouille, et par ce filon de Kalahdium, je t'infuse d'une partie de mon pouvoir !&quot;"/>
+    <property name="npcname" value="Minerai étrange"/>
+   </properties>
+  </object>
+  <object id="2" template="templates/mapChangerEnd.tx" x="97.75" y="148">
+   <properties>
+    <property name="linkid" value="kalaaaa"/>
+   </properties>
+  </object>
+  <object id="3" template="templates/npc.tx" gid="496" x="87.5" y="111">
+   <properties>
+    <property name="attack" value=""/>
+    <property name="destmap" value="level_incarnam"/>
+    <property name="linkid" value="kalaaab"/>
+    <property name="message" value="Bonjour, si vous lisez ce panneau, c'est que vous allez être teleporté hors de Kalahroch, bon voyage !"/>
+    <property name="npcname" value="Panneau de Kalahroch"/>
+   </properties>
+  </object>
+  <object id="4" template="templates/target.tx" x="274" y="104.667"/>
+  <object id="5" template="templates/target.tx" x="282" y="196"/>
+  <object id="6" template="templates/target.tx" x="211.333" y="174.667"/>
+  <object id="7" template="templates/altar.tx" x="203.333" y="32.6667"/>
+  <object id="8" template="templates/savepoint.tx" x="102" y="23.3333"/>
+  <object id="9" template="templates/damage.tx" x="162" y="198"/>
+ </objectgroup>
+</map>

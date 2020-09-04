@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <tileset firstgid="1" source="../elements.tsx"/>
+ <object name="button" type="element" gid="1" width="32" height="32">
+  <properties>
+   <property name="attack" value=""/>
+   <property name="interactable" type="bool" value="true"/>
+   <property name="linkid" value="aaaa"/>
+   <property name="tangibility" type="bool" value="true"/>
+  </properties>
+ </object>
+</template>

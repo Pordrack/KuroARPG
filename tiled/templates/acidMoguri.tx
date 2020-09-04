@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <tileset firstgid="1" source="../mobs.tsx"/>
+ <object name="acidMoguri" type="mob" gid="5" width="49" height="71">
+  <properties>
+   <property name="attack" value=""/>
+   <property name="attackcd" type="float" value="2.5"/>
+   <property name="life" type="int" value="3"/>
+   <property name="linkid" value="mobaaab"/>
+   <property name="precision" type="int" value="75"/>
+   <property name="spd" type="int" value="150"/>
+  </properties>
+ </object>
+</template>

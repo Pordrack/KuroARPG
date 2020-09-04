@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <tileset firstgid="1" source="../mobs.tsx"/>
+ <object name="stalagmirne" type="mob" gid="7" width="50" height="50">
+  <properties>
+   <property name="attack" value=""/>
+   <property name="attackcd" type="float" value="10"/>
+   <property name="life" type="float" value="3"/>
+   <property name="linkid" value="mobaaba"/>
+   <property name="precision" type="int" value="75"/>
+   <property name="spd" type="int" value="300"/>
+  </properties>
+ </object>
+</template>

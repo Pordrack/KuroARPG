@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="15">
+ <editorsettings>
+  <export target="../level_house.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" source="roguelikeInterior.tsx"/>
+ <tileset firstgid="436" source="roguelikeBaseKenney.tsx"/>
+ <tileset firstgid="2068" source="elements.tsx"/>
+ <layer id="1" name="background" width="20" height="15">
+  <data encoding="csv">
+667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,
+667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,
+667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,
+667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,
+667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,
+667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,
+667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,
+667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,
+667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,
+667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,
+667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,
+667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,
+667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,
+667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,
+667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667,667
+</data>
+ </layer>
+ <layer id="4" name="background" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,374,375,376,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="platforms" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,392,393,393,394,367,363,364,365,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,282,283,283,283,283,283,283,283,283,257,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,300,298,298,298,298,298,298,301,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,242,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,15,0,
+0,0,267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,40,0,
+0,0,267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,294,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="Object Layer 1">
+  <object id="1" template="templates/mapChangerEnd.tx" x="129.848" y="217.606"/>
+  <object id="2" template="templates/mapChangerBegin.tx" x="115.455" y="227.636" width="40" height="8.18181">
+   <properties>
+    <property name="destmap" value="level_incarnam"/>
+    <property name="linkid" value="mapchangeaaab"/>
+   </properties>
+  </object>
+  <object id="3" template="templates/spawnpoint.tx" x="227.167" y="128.167" width="11.75" height="15.5"/>
+  <object id="4" template="templates/damage.tx" x="220" y="191.333"/>
+  <object id="5" template="templates/savepoint.tx" x="32" y="80"/>
+  <object id="6" template="templates/mapChangerEnd.tx" x="65.5" y="24.75">
+   <properties>
+    <property name="linkid" value="changeMapaaac"/>
+   </properties>
+  </object>
+  <object id="8" template="templates/npc.tx" gid="372" x="64" y="0" width="15.5" height="14.5">
+   <properties>
+    <property name="message" value="Mon frère est pas méchant, même si il parle bizarrement et lance des sorts randoms dé qu'on le réveille. Sinon, c'est pas une prison éternelle, la sortie est en bas. Je crois qu'il est pas au courant et pense reellement condamné à l'exile eternelle les aventuriers. "/>
+    <property name="npcname" value="Four qui parle, mais qui est pas magique"/>
+   </properties>
+  </object>
+  <object id="9" template="templates/target.tx" x="270.5" y="48.5">
+   <properties>
+    <property name="attack" value="pullsphere"/>
+   </properties>
+  </object>
+  <object id="10" template="templates/npc.tx" gid="2076" x="203" y="33.5">
+   <properties>
+    <property name="attack" value="pushsphere"/>
+    <property name="disappear" type="bool" value="true"/>
+    <property name="message" value="Vous trouvez une attaque par terre. Vraiment, c'est fou ce que les gens jettent de nos jours ! Et bien vous la ramassez, et vous avez bien raison, pourquoi se gêner ?"/>
+    <property name="npcname" value="Mysterieuse attaque"/>
+   </properties>
+  </object>
+  <object id="11" template="templates/npc.tx" gid="2079" x="54.0003" y="112.667">
+   <properties>
+    <property name="attack" value="mturret"/>
+    <property name="disappear" type="bool" value="true"/>
+    <property name="message" value="Cette tourelle était utilisé par les disciple d'Omega pour, lors des champs de bataille, copier la magie d'autres armes Karnienne afin de les assister et compléter. Leur haute adaptibilité en faisait des armes polyvalentes assez recherchés. Le cuivre de cette exemplaire est oxydée et ébreché de part et d'autre de sa surface, et elle ne semble plus en état de marche. Cependant, vous pensez pouvoir la rafistolez, et en récuperez donc les pièces détachés."/>
+    <property name="npcname">Tourelle arcaniquement métamorphe
+</property>
+   </properties>
+  </object>
+  <object id="12" template="templates/npc.tx" gid="2077" x="124" y="128.5">
+   <properties>
+    <property name="attack" value="pet"/>
+    <property name="message" value="Coucou, moi c'est Rhonas. Aucune idée de ce que je fous là. C'est quoi cette maison ? Je devrais pas être mort a cette époque du canon ? Franchement, j'y comprend plus rien... Bref, en tout cas, si tu la connais pas, apprend cette competence."/>
+    <property name="npcname" value="Rhonas l'as des as"/>
+   </properties>
+  </object>
+  <object id="13" template="templates/npc.tx" gid="2078" x="248.667" y="1.33367">
+   <properties>
+    <property name="attack" value="hturret"/>
+    <property name="disappear" type="bool" value="true"/>
+    <property name="message" value="Cette tourelle était, fut un temps, utilisé par les soigneurs fidèles de Pordrack. On raconte qu'elle est non seulement capable de guérir des maux dont souffres les mortels, mais également de régénerer la magie qui alimente les tourelles des autres Karniens. Elle est en mauvaise état, mais vous en récuperer les pieces, persuadé de pouvoir la réparer."/>
+    <property name="npcname">Tourelle de soin
+</property>
+   </properties>
+  </object>
+  <object id="14" template="templates/npc.tx" gid="2080" x="86" y="142">
+   <properties>
+    <property name="attack" value="spear"/>
+    <property name="disappear" type="bool" value="true"/>
+    <property name="message" value="Vous trouvez une lance à la pointe d'un acier bleu écaillé et délavé. Elle semble appartenir au vieux charclo à echarpe d'a coté. Alors qu'il regarde ailleurs, vous la prenez en Soum-Soum. Ca pourra toujours vous servir de gode michet de fortune les nuits de solitude."/>
+    <property name="npcname" value="Lance de Rhonas"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

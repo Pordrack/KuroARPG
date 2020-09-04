@@ -1,0 +1,158 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "kalahroch.tmx",
+    "expandedProjectPaths": [
+        "templates",
+        "C:/Users/maman de jeremy/Documents/LUA/eliatrope/tiled/templates",
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "C:/Users/maman de jeremy/Documents/LUA/eliatrope/incarnam.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 130,
+                "y": 74.33333333333331
+            }
+        },
+        "C:/Users/maman de jeremy/Documents/LUA/eliatrope/tiled/dungeon.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1.5,
+            "scaleInEditor": 0.75
+        },
+        "C:/Users/maman de jeremy/Documents/LUA/eliatrope/tiled/elements.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
+        },
+        "C:/Users/maman de jeremy/Documents/LUA/eliatrope/tiled/incarnam.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 791.3333333333333,
+                "y": 799
+            }
+        },
+        "C:/Users/maman de jeremy/Documents/LUA/eliatrope/tiled/incarnamDecorations.tsx": {
+            "scaleInDock": 0.125,
+            "scaleInEditor": 0.75
+        },
+        "C:/Users/maman de jeremy/Documents/LUA/eliatrope/tiled/mobs.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
+        },
+        "dungeon.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "elements.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "house.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 159.99999999999997,
+                "y": 120.33333333333331
+            }
+        },
+        "incarnam.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 518.6666666666666,
+                "y": 927.3333333333333
+            }
+        },
+        "incarnamDecorations.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.0625,
+            "scaleInEditor": 0.5
+        },
+        "kalahroch.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 159.33333333333331,
+                "y": 120.33333333333331
+            }
+        },
+        "mobs.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "npcsKenney.tsx": {
+            "dynamicWrapping": true
+        },
+        "roguelikeBaseKenney.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "roguelikeDungeon.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1.5
+        },
+        "roguelikeInterior.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 2,
+            "scaleInEditor": 1.5
+        }
+    },
+    "map.fixedSize": true,
+    "map.height": 15,
+    "map.lastUsedExportFilter": "Lua files (*.lua)",
+    "map.lastUsedFormat": "tmx",
+    "map.layerDataFormat": null,
+    "map.orientation": 1,
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 20,
+    "openFiles": [
+        "incarnam.tmx",
+        "house.tmx",
+        "kalahroch.tmx",
+        "roguelikeDungeon.tsx",
+        "roguelikeBaseKenney.tsx",
+        "roguelikeInterior.tsx",
+        "elements.tsx",
+        "mobs.tsx"
+    ],
+    "project": "kuro.tiled-project",
+    "property.type": "float",
+    "recentFiles": [
+        "incarnam.tmx",
+        "house.tmx",
+        "mobs.tsx",
+        "elements.tsx",
+        "roguelikeInterior.tsx",
+        "roguelikeBaseKenney.tsx",
+        "roguelikeDungeon.tsx",
+        "kalahroch.tmx",
+        "incarnamDecorations.tsx",
+        "dungeon.tsx",
+        "C:/Users/maman de jeremy/Documents/LUA/eliatrope/tiled/elements.tsx",
+        "C:/Users/maman de jeremy/Documents/LUA/eliatrope/tiled/incarnam.tmx"
+    ],
+    "tileset.embedInMap": false,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.margin": 0,
+    "tileset.spacing": 0,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.transparentColor": "#ff00ff",
+    "tileset.type": 1,
+    "tileset.useTransparentColor": false
+}
